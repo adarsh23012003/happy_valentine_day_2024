@@ -7,6 +7,45 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">happy valentine's day</h1>
+    <div class="flex justify-center w-full items-center h-screen bg-[#F9DDDA]">
+      <div class="relative">
+        <div
+          class="absolute top-1/2 left-1/2 bg-[#F48B84] w-[300px] h-[180px] transform -translate-x-1/2 -translate-y-1/2 rounded-xl group cursor-pointer shadow-xl"
+        >
+          <div
+            class="absolute left-[37.5px] w-[225px] h-[225px] bg-[#F48B84] transform -translate-y-[100px] rotate-45 origin-center rounded-[10%]"
+          ></div>
+          <!-- Card -->
+          <div
+            class="bg-[#E8DDAF] rounded-sm absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-[0.5s] ease-in-out group-hover:top-[0%] cursor-pointer"
+          >
+            <div
+              class="border-4 border-black border-[#6D7154] inline-block border-dotted m-3"
+            >
+              <div
+                style="
+                  background-image: url('./pulse.gif');
+                  background-size: cover;
+                "
+                class="text-xl font-bold text-white text-center font-serif italic px-16 py-5"
+              >
+                <h1>Happy</h1>
+                <h2>Valentine's</h2>
+                <h3>Day</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-0 left-0 border-l-[300px] border-t-[180px] border-t-transparent border-l-[#F48B84] rounded-xl"
+          ></div>
+          <div
+            class="absolute top-0 right-0 border-t-[180px] border-r-[300px] border-r-[#F48B84] border-t-transparent rounded-xl"
+          ></div>
+          <div
+            class="absolute -bottom-14 rounded-[100%] bg-black/20 w-full h-7 mt-10"
+          ></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
